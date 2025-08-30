@@ -1,0 +1,25 @@
+{
+  "name": "sit725-week7",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha --reporter spec",
+    "start": "node server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "express": "^5.1.0",
+    "mongoose": "^8.17.0",
+    "request": "^2.88.2",
+    "socket.io": "^4.8.1"
+  },
+  "devDependencies": {
+    "chai": "^4.4.1",
+    "mocha": "^11.7.1",
+    "sinon": "^21.0.0",
+    "sinon-chai": "^3.7.0",
+    "supertest": "^7.1.4"
+  }
+}
